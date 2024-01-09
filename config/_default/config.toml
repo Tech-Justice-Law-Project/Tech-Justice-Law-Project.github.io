@@ -1,0 +1,39 @@
+baseURL = "https://tech-justice-law-project.github.io/"
+languageCode = "en-us"
+title = "The Tech Justice Law Project"
+theme = "hugo-arcana"
+copyright = "© The Tech Justice Law Project."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[taxonomies]
+    tag = "tags"
+
+[params]
+    description = "Protecting Our Rights in a Digital Age"
+    show_post_dates = true
+
+    [[params.social]]
+        title = "Twitter"
+        icon = "fa-twitter"
+        url = "#"
+    [[params.social]]
+        title = "Facebook"
+        icon = "fa-facebook-f"
+        url = "#"
+    [[params.social]]
+        title = "LinkedIn"
+        icon = "fa-linkedin-in"
+        url = "#"
+
+
+    [params.footer]
+
+        [params.footer.contact_form]
+            enabled = false
+            header = "Connect with Us"
+            action = ""

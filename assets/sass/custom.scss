@@ -1,0 +1,16 @@
+/* This file intentionally left blank.
+ * Put your custom CSS into your (not the theme's) assets/sass/custom.scss
+ */
+// Palette.
+$palette: (
+    bg: #f7f7f7,
+    fg: #474747,
+    fg-bold: #4c4c4c,
+    fg-light: #999,
+    border: #e0e0e0,
+
+    accent: (
+        bg: #0c00e1,
+        fg: #fff
+    )
+);

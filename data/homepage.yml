@@ -1,0 +1,35 @@
+banner:
+  enable: true
+  image: "images/cover_image.jpg"
+  contents: "Protecting Our Rights in a Digital Age"
+#  button:
+#    contents: "Learn More"
+#    url: "/aboutus/"
+items:
+  - type: heading
+    heading: Mission
+    contents: By working with legal scholars, policy experts, technologists, and community advocates, the Tech Justice Law Project will contribute to building more equitable legal ecosystems that are fit for the digital age and which facilitate accountability and oversight of tech platforms and their products.
+  - type: highlights
+    items_per_row: 3
+    items:
+    - title: About Us
+      icon: fa-users
+      content: >
+        Learn about who we are, what we do, and the people that make it all happen.
+    - title: Resources
+      icon: fa-info
+      content: >
+        Looking for resources related that help hold Big Tech accountable? 
+    - title: Contact Us
+      icon: fa-envelope
+      content: >
+        Looking to get in touch with us?  Complete the form and we'll contact you shortly.
+  - type: posts
+    heading: Lateset News
+    content_type: posts
+    max: 4
+  - type: cta
+    contents: Want to help?
+    button:
+      contents: Learn How
+      url: "#"
