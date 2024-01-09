@@ -2,7 +2,7 @@
 title: "About Us"
 description: "Learn more about who we are, what we do, and the people behind the curtain."
 menu: main
-weight: 90
+weight: 11
 #image: images/banner.jpg
 #image_alt: "Contact Us"
 #tags: ["examples", "content"]

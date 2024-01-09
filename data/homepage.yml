@@ -14,14 +14,23 @@ items:
     items:
     - title: About Us
       icon: fa-users
+      button:
+        contents: "Learn More"
+        url: "/about-us/"
       content: >
         Learn about who we are, what we do, and the people that make it all happen.
     - title: Resources
-      icon: fa-info
+      icon: fa-info      
+      button:
+        contents: "Find Resources"
+        url: "/resources/"
       content: >
         Looking for resources related that help hold Big Tech accountable? 
     - title: Contact Us
       icon: fa-envelope
+      button:
+        contents: "Reach out"
+        url: "/contact/"
       content: >
         Looking to get in touch with us?  Complete the form and we'll contact you shortly.
   - type: posts
