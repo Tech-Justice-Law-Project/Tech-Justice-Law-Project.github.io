@@ -323,12 +323,12 @@
 
     input[type="text"],
     input[type="password"],
-    select,
     input[type="email"],
+    select,
     textarea {
         @include vendor('appearance', 'none');
         @include vendor('transition', 'border-color 0.2s ease-in-out');
-        background: #EEEEEE;
+        background: #fff;
         border: solid 1px _palette(border);
         border-radius: _size(radius);
         color: inherit;
@@ -342,7 +342,6 @@
             border-color: _palette(accent, bg);
         }
     }
-
 
     input[type="text"],
     input[type="password"],
@@ -934,7 +933,7 @@
         );
         background-position: center center;
         background-size: cover;
-        height: 28em;
+        height: 22em;
         text-align: center;
         position: relative;
 

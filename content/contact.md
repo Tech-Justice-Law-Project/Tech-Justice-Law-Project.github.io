@@ -26,7 +26,7 @@ image_alt: "Contact Us"
             </div>
             <div class="col-6 col-12-mobilep">
                 <select name="occupation" id="occupation" placeholder="Occupation" size="1">
-                  <option value="null">-= Select Occupation =-</option>
+                  <option value="null">Select Occupation</option>
                   <option value="Advocate">Advocate</option>
                   <option value="AttorneyLitigator">Attorney/Litigator</option>
                   <option value="Legislator">Legislator</option>
